@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import mainMeal from '../../assets/images/meals.jpg';
-import Cart from '../Cart/Cart';
+import CartContext from '../../store/cart-context';
 import classes from './Header.module.css';
 import HeaderCartButton from './HeaderCartButton';
 
 const Header = (props) => {
   const { onShowCart } = props;
+
   return (
     <React.Fragment>
       <header className={classes.header}>
