@@ -1,6 +1,5 @@
 import React from 'react';
 import mainMeal from '../../assets/images/meals.jpg';
-import CartContext from '../../store/cart-context';
 import classes from './Header.module.css';
 import HeaderCartButton from './HeaderCartButton';
 
