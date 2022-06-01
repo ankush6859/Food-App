@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import mainMeal from '../../assets/images/meals.jpg';
+import Cart from '../Cart/Cart';
 import classes from './Header.module.css';
 import HeaderCartButton from './HeaderCartButton';
 
